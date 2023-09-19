@@ -1,0 +1,10 @@
+.main
+{
+	width: 1000px;
+	height: 400px;
+	background: red;
+	font-size: 100px;
+	color: blue;
+	text-align: center;
+	font-family: verdana;
+}
