@@ -1,0 +1,57 @@
+Video:-2
+<script></script> ko </body> tag khatam hone se pahale likha jata he.
+
+->atribute ya biltin mathod aayegi.
+
+1. java script me start tag aur and tag ke bich me jo value likhi
+he use change karne ke liye inner.HTML no us karvo.
+
+2. <h1 id="h">hello</h1>
+java script me jab koy tag ke id ko document.getElementById('h').innerHTML = "<u>hello</u>"; me get karvate he tab vo tag ke contant ko koy html ka attribute dete he to vo tag html ke attribute ki tarha hi kam karega.
+
+3. <h1>hello</h1>
+	java script me jab koy tag ke id ko documtnt.gatElemrntBy Id("h").innerText = "<u>hello</u>"; me get karvate he tab vo tag ke contant ko koy html ka attribute dete he tab vo pure tag ko hi print kar ke rakh dega.(text ki tarha vo attribute print karega).
+
+4. java script me <input type="text" value="hello"> input tag ke under value me jo likha he jo change karne ke liye document.getElementByid(").value = "word"; inner.HTML ki badle value = "hello"; likhan jata he.
+
+variable rules:-3
+
+1. variable name se suru nhi ho shakta he. var hello.
+2.  
+3. variable me keyword use nahi kar shakate. keyword mins reserved keyword.
+	for:- jiska programming me kutch minning he use us nahi kar shakate 
+
+
+  var for1 = 12; // declaration 
+        var for1 = -34;// Re-declaration ALLOWED
+        for1="var"; // Re-assignment ALLOWED
+        
+
+
+        document.write(for1);//56
+        document.write("<br>");
+
+
+  let x = 12; // declaration
+      //  let x = -34;// Re-declaration  NOT ALLOWED
+        x="let"; // Re-assignment ALLOWED
+
+
+	   document.write(x);//let
+        document.write("<br>");
+
+  const y = "const"; // declaration
+      //  const y = -34;// Re-declaration NOT  ALLOWED
+      //y=56; // Re-assignment  NOT  ALLOWED
+        
+
+	  document.write(y);//const
+        document.write("<br>");
+
+
+
+
+
+		
+								datatype
+       
