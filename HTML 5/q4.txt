@@ -1,0 +1,113 @@
+(4)  Canvas and SVG tags.
+
+ANs:- The HTML <svg> element is a container for SVG graphics. SVG stands for Scalable Vector Graphics. SVG and useful for defining graphics such as boxes, circles, text, etc. SVG stands for Scalable Vector Graphics and is a language for describing 2D-graphics and graphical applications in XML and the XML is then rendered by an SVG viewer. Most of the web browsers can display SVG just like they can display PNG, GIF, and JPG.
+
+The HTML <canvas> element is used to draw graphics, via JavaScript. The<canvas> element is a container for graphics.
+
+SVG
+HTML Canvas
+SVG has better scalability. So it can be printed with high quality at any resolution
+Canvas has poor scalability. Hence it is not suitable for printing on higher resolution
+SVG gives better performance with smaller number of objects or larger surface.
+Canvas gives better performance with smaller surface or larger number of objects.
+SVG can be modified through script and CSS
+Canvas can be modified through script only
+SVG is vector based and composed of shapes.
+Canvas is raster based and composed of pixel.
+Example
+ you can try to run the following code to add scalable vector graphics (SVG) to web page −
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <style>
+         #svgelem {
+            position: relative;
+            left: 50%;
+            -webkit-transform: translateX(-20%);
+            -ms-transform: translateX(-20%);
+            transform: translateX(-20%);
+         }
+      </style>
+      <title>HTML5 SVG</title>
+   </head>
+   <body>
+      <h2 align = "center">HTML5 SVG Circle</h2>
+      <svg id = "svgelem" height = "200" xmlns = "http://www.w3.org/2000/svg">
+         <circle id = "bluecircle" cx = "60" cy="60" r = "50" fill = "blue" />
+      </svg>
+   </body>
+</html>
+Example
+You can try to run the following code to learn how to draw a rectangle with HTML5 Canvas −
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>HTML5 Canvas Tag</title>
+   </head>
+   <body>
+      <canvas id = "newCanvas" width = "200" height = "100" style = "border:1px solid #000000;"></canvas>
+      <script>
+         var c = document.getElementById('newCanvas');
+         var ctx = c.getContext('2d');
+         ctx.fillStyle = '#7cce2b';
+         ctx.fillRect(0,0,300,100);
+      </script>
+   </body>
+</html>The HTML <svg> element is a container for SVG graphics. SVG stands for Scalable Vector Graphics. SVG and useful for defining graphics such as boxes, circles, text, etc. SVG stands for Scalable Vector Graphics and is a language for describing 2D-graphics and graphical applications in XML and the XML is then rendered by an SVG viewer. Most of the web browsers can display SVG just like they can display PNG, GIF, and JPG.
+
+The HTML <canvas> element is used to draw graphics, via JavaScript. The<canvas> element is a container for graphics.
+
+SVG
+HTML Canvas
+SVG has better scalability. So it can be printed with high quality at any resolution
+Canvas has poor scalability. Hence it is not suitable for printing on higher resolution
+SVG gives better performance with smaller number of objects or larger surface.
+Canvas gives better performance with smaller surface or larger number of objects.
+SVG can be modified through script and CSS
+Canvas can be modified through script only
+SVG is vector based and composed of shapes.
+Canvas is raster based and composed of pixel.
+Example
+ you can try to run the following code to add scalable vector graphics (SVG) to web page −
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <style>
+         #svgelem {
+            position: relative;
+            left: 50%;
+            -webkit-transform: translateX(-20%);
+            -ms-transform: translateX(-20%);
+            transform: translateX(-20%);
+         }
+      </style>
+      <title>HTML5 SVG</title>
+   </head>
+   <body>
+      <h2 align = "center">HTML5 SVG Circle</h2>
+      <svg id = "svgelem" height = "200" xmlns = "http://www.w3.org/2000/svg">
+         <circle id = "bluecircle" cx = "60" cy="60" r = "50" fill = "blue" />
+      </svg>
+   </body>
+</html>
+Example
+You can try to run the following code to learn how to draw a rectangle with HTML5 Canvas −
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>HTML5 Canvas Tag</title>
+   </head>
+   <body>
+      <canvas id = "newCanvas" width = "200" height = "100" style = "border:1px solid #000000;"></canvas>
+      <script>
+         var c = document.getElementById('newCanvas');
+         var ctx = c.getContext('2d');
+         ctx.fillStyle = '#7cce2b';
+         ctx.fillRect(0,0,300,100);
+      </script>
+   </body>
+</html>
