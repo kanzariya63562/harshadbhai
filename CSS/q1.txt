@@ -1,0 +1,42 @@
+(1)  What are the benefits of using CSS?
+
+ans:-Cascading Style Sheets (CSS): CSS is defined as a method sheet language that provides web designers control over how an internet site communicates with web browsers including the formatting and display of their HTML documents.
+
+CSS or cascading sheet may be a text-based coding language that specifies the website formats and the way a site communicates with web browsers. The language allows web developers to regulate various style elements and functionalities, like layout, color, fonts, and therefore the formatting and display of HTML documents.
+
+The main goal (as a method sheet language) was to separate document content from document presentation, which incorporates style elements, like color, layout, and fonts. CSS handles the design and feel a part of an internet page. Using CSS, you will control the color of the text, the design of fonts, the spacing between paragraphs, how columns are sized and laid out, etc.
+
+CSS instructs the display of the HTML on how the web site will display at the user’s end. Let us have a glance on the benefits and drawbacks of CSS.
+
+
+
+
+
+
+
+(2)  What are the disadvantages of CSS? 
+ans:-There are a few downsides while using CSS. One must know these disadvantages so that he or she is aware and takes care of them while designing a website.
+
+1. Confusion due to many CSS levels
+Beginners are more vulnerable to this issue. They might get confused while opting to learn CSS as there are many levels of CSS such as CSS2, CSS3, etc.
+
+2. Cross-Browser Issues
+Different browsers work differently. So, you have to check that changes implemented in the website via CSS codes are reflected properly among all browsers.
+
+3. Security Issues
+Security is important in today’s world driven by technology and data. One of the major disadvantages of CSS is that it has limited security.
+
+4. Extra Work for Developers
+Design services are required to consider and test all CSS codes across different browsers for compatibility. Due to developers testing compatibility for different browsers, their workload increases.
+
+Overall, we can say that if you are passionate about web development, try to learn HTML and CSS. For device compatibility, learn the Bootstrap framework as well. Though you might see some disadvantages of CSS, many advantages counter them and ensure that your web development process is smooth and efficient.
+
+(3) • Name a few CSS style components 
+ans:-Style Components with CSS Stylesheets
+To bundle a set of styles with a component, create a stylesheet with the same name as the component in the component’s folder. The stylesheet is automatically applied to the component. If you want to style a component with one or more stylesheets, configure the stylesheets static property.
+
+You can only have one stylesheet in a component’s folder. Stylesheets use standard CSS syntax and you can use most selectors. A stylesheet can import style rules from multiple CSS modules.
+
+Styles defined in a component’s stylesheet are scoped to the component. This rule allows a component to be reused in different contexts without losing its style. It also prevents a component’s styles from overriding styles in other parts of a page.
+
+This example demonstrates how the CSS styles defined in a parent component don’t reach into a child. There are two components, c-parent and c-child. Each component contains an <h1> tag. The parent.css stylesheet defines the h1 style as xx-large. When you run the code, the style applies only to the <h1> tag in the parent, not to the <h1> tag in the nested child.

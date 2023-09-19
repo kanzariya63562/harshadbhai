@@ -1,0 +1,30 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	background: darkgray;
+	text-align: center;
+}
+
+.t
+{
+	height: 30px;
+	width: 400%;
+}
+
+h1
+{
+	background: white;
+	color: red;
+}
+
+.submit
+
+{
+	background: green;
+}
