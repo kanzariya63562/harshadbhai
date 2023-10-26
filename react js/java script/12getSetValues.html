@@ -1,0 +1,76 @@
+12getSetValues.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="x">Heading</h1> 
+
+    <p class="y">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus asperiores consequatur id saepe libero eaque natus? Voluptas, modi mollitia expedita perferendis dolor, itaque laboriosam delectus pariatur autem dolore harum nisi.
+    </p>
+
+    <a href="x.html" id="an">LINK</a>
+
+    <img src="x.jpg" alt="No Image" id="im">
+
+    <input type="text" value="Hello" id="inp">
+
+    <script>
+
+       var h1_tag =  document.querySelector('.x');
+       var i_tag =  document.querySelector('#im');
+      var para=  document.querySelector('.y')
+
+       var input = document.getElementById('inp');
+
+       console.log(h1_tag.innerText);
+       console.log(input.value);
+       console.log(i_tag.alt);
+       console.log(para);
+
+       
+
+    //    i_tag.alt ="HYPERLINK"
+
+   
+    // h1_tag.addEventListener("mouseenter",Test)
+
+    // function Test()
+    // {
+    //     para.innerHTML = i_tag.alt;
+    //     input.value = h1_tag.innerText;
+    // }
+
+
+//     h1_tag.addEventListener("mouseenter",function Test()
+// {
+//     para.innerHTML = i_tag.alt;
+//     input.value = h1_tag.innerText;
+// })
+
+// h1_tag.addEventListener("mouseenter",function ()
+// {
+//     para.innerHTML = i_tag.alt;
+//     input.value = h1_tag.innerText;
+// })
+
+
+h1_tag.addEventListener("mouseenter", ()=>
+{
+    para.innerHTML = i_tag.alt;
+    input.value = h1_tag.innerText;
+})
+
+
+
+    
+
+       </script> 
+
+
+</body>
+</html>

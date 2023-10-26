@@ -1,0 +1,64 @@
+15polymorphism.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Polymorphism: One name Multiple form 
+
+    1. same name same para 
+
+   class X 
+   {
+        Test()
+        {
+            ..code x;
+        }
+
+        Test()
+        {
+            ..code y;
+        }
+   } -->
+
+    <script>
+
+class X 
+   {
+        static Test()
+        {
+           console.log("Test 1")
+        }
+        fun()
+        {
+            console.log("FUN")
+        }
+
+       
+   }
+
+    class Y extends X
+    {
+        Test()
+            {
+                console.log("Test 2")
+            }
+    }
+
+
+   const obj2 = new Y;
+
+   obj2.Test();
+   obj2.fun();
+   X.Test()
+
+       
+
+    </script>
+    
+</body>
+</html>

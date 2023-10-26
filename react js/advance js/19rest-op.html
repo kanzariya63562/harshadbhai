@@ -1,0 +1,60 @@
+19rest-op.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+arr = [1,2,3,4,5];
+
+let sum =0;
+function Add()
+{
+    for(i=0;i<arr.length;i++)
+{
+
+    sum = sum + arr[i];//3 +3
+
+   
+// console.log(arr[i])
+}
+
+console.log(sum)
+}
+// Add()
+
+
+
+
+
+
+
+
+
+
+
+
+        function GetSum(...rest)
+        {
+        //   console.log(n1+n2)
+        console.log(rest)
+let sum1=0;
+        for(i=0;i<rest.length;i++)
+        {
+            sum1 = sum1+ rest[i];
+        }
+        console.log(sum1)
+        }
+
+        GetSum(1,2,3,4,5)
+        // GetSum("hi","hello","how","are","you")
+    
+    </script>
+    
+</body>
+</html>

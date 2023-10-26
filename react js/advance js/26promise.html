@@ -1,0 +1,47 @@
+26promise.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // const obj = new className;
+
+    function Display(result)
+    {
+        console.log(result);
+    }
+
+
+        const PromiseME = new Promise(function(response,error){
+            
+            if(1==1)
+            {
+                return (response("Connected"))
+            }
+            else
+            {
+                return (error("Disconnected"))
+            }
+        })
+
+        // console.log(PromiseME)
+
+        PromiseME.then(
+            // function(res){console.log(res)},// connected
+            // function(err){console.log(err)} // disconneted
+
+            function(res){Display(res)},
+            function(err){Display(err)}
+        )
+
+
+
+
+    </script>    
+</body>
+</html>

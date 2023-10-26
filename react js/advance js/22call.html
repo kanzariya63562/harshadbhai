@@ -1,0 +1,37 @@
+22call.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        const Student = {
+           
+            fullName: function(){
+                console.log(this.fname + " " +this.lname)
+            }
+        }
+
+        const Stu1 = {
+            fname:"urvi",
+            lname:"parmar"
+
+        }
+
+        const Student2 = {
+            fname:"Jay",
+            lname:"Joshi"
+        }
+
+Student.fullName.call(Student2)
+        
+
+        Student.fullName.call(Stu1)
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,50 @@
+10class-object1.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        class Bank 
+        {
+             x =2;
+             Details(pin,bal)
+            {
+                var atmPin = pin;
+                var balance = bal;
+                var IFSC ="HDFC000N";
+                var bankName ="HDFC";
+
+                console.log(atmPin);
+                console.log(balance);
+                // console.log(IFSC);
+                // console.log(bankName);
+
+                // return balance+ " " + atmPin+ " " + IFSC;
+            }
+        }
+
+        const parth = new Bank;
+        const meet = new Bank;
+        const jay = new Bank;
+       console.log( jay.x);
+
+        parth.Details(123,100000);
+        meet.Details(456,800000);
+        meet.Details(4456,20000);
+
+    
+
+
+      
+
+        // console.log(Details())
+        // Details();
+    </script>
+    
+</body>
+</html>

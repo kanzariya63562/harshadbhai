@@ -1,0 +1,47 @@
+12constructor.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- constructor: 
+    it is a magic function which wil be called automatically when an object of a class is created
+
+
+    =>  A class may only have one constructor
+
+    constructor () 
+    {
+
+    } -->
+
+    <script>
+
+        class Test 
+        {
+
+            constructor (x) 
+            {
+                console.log("Constructor...! " + x);
+            }
+            // constructor () 
+            // {
+            //     console.log("Constructor...! " + x);
+            // }
+
+
+            xyz(y)
+            {
+                console.log("XYZ " + y);
+            }
+        }
+
+        var obj = new Test("hello constructor...!");
+         obj.xyz(12);
+    </script>
+</body>
+</html>

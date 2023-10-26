@@ -1,0 +1,62 @@
+11class-object2.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        class Test 
+        {
+
+             xyz = 123;
+             x = function Fun1()
+            {
+                console.log("FUN 1") ;
+            }
+
+            y = function ()
+            {
+                console.log("Anonymous Function...!") ;
+            }
+
+            z =  ()=>
+            {
+                console.log("Arrow Function...!") ;
+            }
+
+            Dipak()
+            {
+                console.log("Dipak...!")
+            }
+
+            static DBMS()
+            {
+                console.log("Bank database..!");
+            }
+
+            constructor (x) 
+            {
+                console.log("Constructor...! " + x);
+            }
+
+        }
+
+        var obj1 = new Test(90);
+        var Rishi = new Test("hi");
+        obj1.x();
+        obj1.y();
+        obj1.z();
+        obj1.Dipak();
+        console.log(obj1.xyz);
+        Test.DBMS();
+
+
+    </script>
+    
+</body>
+</html>

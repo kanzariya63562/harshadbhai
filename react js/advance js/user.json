@@ -1,0 +1,7 @@
+
+users.json
+[
+    {"name":"Rohit","age":22},
+    {"name":"Jay","age":23},
+    {"name":"Jayesh","age":24}
+]

@@ -1,0 +1,29 @@
+28fetch-api.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+       const n =  function GetText()
+        {
+            fetch('sample.txt')
+            .then((res)=>{return (res.text())})
+            .then((data)=>{return (data)})
+           
+            
+        }
+
+       console.log( n())
+
+
+
+    </script>
+    
+</body>
+</html>

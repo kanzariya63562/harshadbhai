@@ -1,0 +1,59 @@
+14-string-template-table.htm
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="data">
+        
+    </div>
+
+    <script>
+        var details = [
+            {id:1,name:"Heena"},
+            {id:2,name:"Rishi"}
+        ]
+
+html = `<table border="1" cellpadding="4">
+    <tr>
+        <td>
+            ID
+        </td>
+
+        <td>
+            Name
+        </td>
+     </tr>  
+        
+     
+     
+     `
+        details.map((v)=>{
+
+            
+           html =html + `
+           <tr>
+
+            <td>${v.id}</td>
+            <td>${v.name}</td>
+           </tr>
+
+        
+
+            `
+          
+
+        })
+
+
+      var div_tag = document.querySelector('.data');
+
+      div_tag.innerHTML= html + '   </table>';
+    </script>
+    
+</body>
+</html>

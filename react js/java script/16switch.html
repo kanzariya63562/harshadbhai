@@ -1,0 +1,50 @@
+16switch.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Enter num: <input type="text" id="n1" onkeyup="Test()" >
+    <b id="res"></b>
+    
+    
+
+    <script>
+
+       function Test()
+       {
+        var i = document.getElementById('n1');
+        var b = document.getElementById('res');
+        console.log(i.value);
+
+         var choice =i.value;//+
+
+        var x=1,y=2;
+        switch(choice)//+
+        {
+            case '+': b.innerHTML= ("Sum = " + (x+y));
+            break;
+
+            case '-': b.innerHTML= ("Sub = " + (x-y));
+            break;
+
+            case  '*':b.innerHTML= ("Mul = " + (x*y));
+            break;
+
+            case  '/': b.innerHTML= ("Sum = " + (x+y));
+            break;
+
+            case  '%':b.innerHTML= ("Sum = " + (x+y));
+            break;
+
+            default: b.innerHTML= ("Sum = " + (x+y));
+            break;
+        }
+       }
+    </script>
+    
+</body>
+</html>

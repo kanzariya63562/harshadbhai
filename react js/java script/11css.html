@@ -1,0 +1,47 @@
+11css.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .xyz 
+        {
+            height: 100px;
+            width: 100px;
+            background: lightcoral;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- var.built-in method 
+    var.attribute -->
+
+    <h1 class="x">Hello</h1>
+
+    <script>
+
+      var _h1 =  document.querySelector(".x");
+
+    //   _h1.style.color = "red";
+    //   _h1.style.height = "100px";
+    //   _h1.style.width = "100px";
+    //   _h1.style.backgroundColor = "lightblue";
+    //   _h1.style.fontSize = "lightblue";
+
+        // _h1.className = "xyz";
+        _h1.classList.add('xyz');
+        _h1.classList.remove('xyz');
+        _h1.classList.toggle('xyz')
+
+
+      console.log(_h1)
+
+    </script>
+
+    
+    
+</body>
+</html>

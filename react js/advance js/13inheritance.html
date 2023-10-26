@@ -1,0 +1,44 @@
+13inheritance.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <!-- FATHER : 100% 
+    MOTHER : 100% 
+    SON    : 30%
+    DAUGHER : 70% -->
+
+    <script>
+         class Parent 
+            {
+                Properties()
+                {
+                    console.log("I have Property..!");
+                }
+
+                
+            }
+
+            class Child extends Parent
+            {
+                meriProp()
+                {
+                    console.log("Ha ha...!");
+                }
+            }
+
+            const getProp = new Child;
+            getProp.Properties();
+            getProp.meriProp();
+
+
+    </script>
+    
+</body>
+</html>

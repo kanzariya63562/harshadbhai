@@ -1,0 +1,92 @@
+17for-in-of-each.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        // for(anyThing in varname)
+        // {
+        //     document.write(anyThing);//index
+        // }
+
+        // for(anyThing of varname)
+        // {   
+        //     document.write(anyThing);//values
+        // }
+
+        //varname.forEach(function)
+
+        // var arr =[ 1,"hi",true,5.6];
+        
+        // console.log(typeof(arr));
+
+        // console.log(arr.length);//6
+
+        // document.write(arr[0])
+        // document.write(arr[1])
+        // document.write(arr[2])
+        // document.write(arr[3])
+        // document.write(arr[4])
+        // document.write(arr[5])
+
+        // for(key=0;key<arr.length;key++)
+        // {
+        //     // document.write(key)
+        //     // document.write(" => ")
+        //     // document.write(arr[key])
+        //     // document.write("<br>")
+
+        //     document.write(key + " => " + arr[key] + "<br>")
+        // }
+
+        var arr =[ 1,"hi",true];
+
+        // for(x in arr)
+        // {
+        //     document.write(x + " => " + arr[x] + "<br>")
+        // }
+
+
+        // for(x of arr)
+        // {
+        //     document.write(x +"<br>")
+        // }
+        // arr.forEach(test);
+
+        // function test(x,y,z)
+        // {
+        //     document.write(z +"<br>")
+        // }
+
+        // arr.forEach(function test(x,y,z)
+        // {
+        //     document.write(z +"<br>")
+        // });
+
+        // arr.forEach(function (x,y,z)
+        // {
+        //     document.write(z +"<br>")
+        // });
+
+        arr.forEach( (x,y,z) =>
+        {
+            document.write(z +"<br>")
+        });
+
+
+
+
+
+
+        
+
+
+    </script>
+
+</body>
+</html>
