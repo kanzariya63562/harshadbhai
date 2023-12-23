@@ -1,0 +1,19 @@
+(1) What is Redux?
+ans:-Redux is simply a store to store the state of the variables in your app. Redux creates a process and procedures to interact with the store so that components will not just update or read the store randomly. Similar to the bank. It does not mean because you have money in the bank that you can go anytime, open the vault, and take money. You have to go through certain steps to withdrawal money.
+
+In the rest of the article, I will show how to create a Redux Hello World to explain how Redux works before adding it to React.
+
+In short, Redux is a way to manage the “state” or we can say it is a cache or storage that can be accessed by all components with a structured way. It has to be accessed through a “Reducer” and “Actions”
+
+
+Here I am going to only document the steps to create a Hello World Redux without much talking and in one file for simplicity. This is not real-world practice, but I want to explain how things move around in an easy way without jumping between files :). The final code can be found here.
+
+(2) What is Redux Thunk used for?
+ans:-Motivation. Redux Thunk middleware allows you to write action creators that return a function instead of an action. The thunk can be used to delay the dispatch of an action, or to dispatch only if a certain condition is met. The inner functidispatch on receives the store methods and getState as parameters.
+
+(3) What is Pure Component? When to use Pure Component over Component?
+ans:-A React component is considered pure if it renders the same output for the same state and props. For this type of class component, React provides the PureComponent base class. Class components that extend the React. PureComponent class are treated as pure components.
+
+
+(4) What is the second argument that can optionally be passed tosetState and what is its purpose?
+ans:-The second parameter to setState() is an optional callback function that will be executed once setState is completed and the component is re-rendered. Generally we recommend using componentDidUpdate() for such logic instead.
