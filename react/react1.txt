@@ -1,4 +1,4 @@
-(1) What is React Js?
+ (1) What is React Js?
 
 ans:-React is a JavaScript library created by Facebook
 
