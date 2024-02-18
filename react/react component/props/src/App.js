@@ -1,25 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import Props from './Props'
+import React from 'react';
+import Greeting from './Greeting'; // Import the Greeting component
 
 function App() {
   return (
-    <div className="App">
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
-      <Props text={{name:'hello'}}/>
+    <div>
+      {/* Render the Greeting component and pass the 'name' prop */}
+      <Greeting name="John" />
     </div>
   );
 }
