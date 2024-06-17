@@ -2,18 +2,16 @@
 
 
 
+my_string = input("Enter a String : ")
+count = {}
 
-
-test_str = "jhui"
-
-all_freq = {}
- 
-for i in test_str:
-    if i in all_freq:
-        all_freq[i] += 1
+for i in my_string:
+    if i in count:
+        count[letter] += 1
     else:
-        all_freq[i] = 1
- 
+     count[i] = 1
 
-print("Count of all characters in GeeksforGeeks is :\n "
-      + str(all_freq))
+
+print("Conut Frequency is ...")
+for key, value in count.items():
+    print(f"{key} occurs {value} times")

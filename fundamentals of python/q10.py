@@ -2,12 +2,13 @@
 
 
 
-def check_condition(a, b):
-    return a == b or abs(a - b) == 5 or a + b == 5
+def test(x,y): 
+        if x == y or abs(x-y) == 5 or (x+y) == 5 :
+            return True
+        else:
+            return False
 
-
-num1 = int(input("Enter the first number: "))
-num2 = int(input("Enter the second number: "))
-
-result = check_condition(num1, num2)
-print("Result:", result)
+print(test(7,2))
+print(test(2,2))
+print(test(3,2))
+print(test(27,53))

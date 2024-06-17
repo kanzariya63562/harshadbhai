@@ -2,22 +2,15 @@
 
 
 
-def count_word_occurrences(sentence):
-    word_count = {}
-    words = sentence.split()
 
-    for word in words:
-        if word in word_count:
-            word_count[word] += 1
-        else:
-            word_count[word] = 1
-
-    return word_count
+text = input("Enter a string :")
+char = input("Enter a character : ")
+count = 0
 
 
-sentence = input("Enter a sentence: ")
-word_occurrences = count_word_occurrences(sentence)
+for i in text:
+    if char  == i:
+        count = count + 1
 
-print("Occurrences of each word:")
-for word, count in word_occurrences.items():
-    print(f"{word}: {count}")
+
+        print("The number of occurrnces of character in a string is : ", count)

@@ -2,15 +2,43 @@
 
 
 
-def add_ing_ly(string):
-    if len(string) < 3:
-        return string
-    elif string.endswith('ing'):
-        return string + 'ly'
+
+# def adding(my_string):
+#     return my_string + "ing"
+
+
+
+
+
+
+
+
+# text = input("Entert a string : ")
+# new_string = adding(text)
+
+
+
+
+
+# print("new string is :", new_string)
+
+
+
+
+
+
+
+
+s = "st"
+if len(s) > 2:
+    if s.endswith("ing"):
+    
+     s += "ly"
     else:
-        return string + 'ing'
+        s += "ing"
 
 
-user_input = input("Enter a string: ")
-result = add_ing_ly(user_input)
-print("Result:", result)
+
+
+print(s)
+    

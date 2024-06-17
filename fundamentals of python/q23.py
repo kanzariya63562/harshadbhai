@@ -3,13 +3,28 @@
 
 
 
-def insert_string_in_middle(main_string, string_to_insert):
-    middle_index = len(main_string) // 2
-    return main_string[:middle_index] + string_to_insert + main_string[middle_index:]
 
 
-main_str = input("Enter the main string: ")
-str_to_insert = input("Enter the string to insert: ")
 
-result = insert_string_in_middle(main_str, str_to_insert)
-print("Result:", result)
+s1 = input("Enter first string :")
+s2 = input("Enter second string :")
+
+
+
+
+middle = len(s2)
+string = ""
+
+
+if len(s2) % 2 == 0:
+    string = s2[:(middle)] + s1 + s2[-middle:]
+  
+else:
+    string = s2[:(middle+1)] + s1 + s2[-middle:]
+
+    
+
+
+
+
+print("New string is",string)

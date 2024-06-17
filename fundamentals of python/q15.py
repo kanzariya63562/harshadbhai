@@ -3,13 +3,9 @@
 
 
 
-str1 = 'The quick brown fox jumps over the lazy dog.'
+string = input("Enter a string :")
+substring = input("Enter a substring :")
 
+count = string.count(substring)
 
-print()
-
-
-print(str1.count("fox"))
-
-
-print() 
+print("Substring occurs %d time " % count)

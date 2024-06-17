@@ -2,11 +2,9 @@
 
 
 
-
-def calculate_string_length(string):
-    return len(string)
-
-# Example usage:
-user_input = input("Enter a string: ")
-length = calculate_string_length(user_input)
-print("Length of the string:", length)
+def string(str1):
+    count=0
+    for char in str1:
+        count +=1
+        return count
+        print(string("hello word"))
