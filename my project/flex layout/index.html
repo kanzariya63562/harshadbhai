@@ -3,34 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dynamic Portal with Flex Layout</title>
+    <title>Advenx – Dynamic Adventure Portal</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <header>
-        <h1>Dynamic Portal</h1>
+        <h1>Advenx</h1>
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
+                <li><a href="#">Adventures</a></li>
+                <li><a href="#">Gallery</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section id="content">
-            <h2>Welcome to the Dynamic Portal</h2>
-            <p>This is a simple example of a dynamic portal with a flexible layout using HTML, CSS, and JavaScript.</p>
+        <section id="hero">
+            <h2>Explore the World of Adventure</h2>
+            <p>Your next adventure awaits. Discover amazing places with Advenx.</p>
         </section>
-        <aside id="sidebar">
-            <h3>Sidebar</h3>
-            <p>Some sidebar content</p>
-            <button id="toggle-content">Toggle Content</button>
-        </aside>
+        <section id="adventures">
+            <h2>Featured Adventures</h2>
+            <div class="adventure-grid">
+                <div class="adventure-item">
+                    <h3>Mountain Trekking</h3>
+                    <p>Experience the thrill of mountain trekking.</p>
+                </div>
+                <div class="adventure-item">
+                    <h3>Desert Safari</h3>
+                    <p>Explore the vast and mysterious deserts.</p>
+                </div>
+                <div class="adventure-item">
+                    <h3>Forest Camping</h3>
+                    <p>Immerse yourself in the serenity of forests.</p>
+                </div>
+                <div class="adventure-item">
+                    <h3>Scuba Diving</h3>
+                    <p>Dive into the deep blue and discover underwater wonders.</p>
+                </div>
+            </div>
+        </section>
+        <section id="gallery">
+            <h2>Adventure Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img src="image1.jpg" alt="Adventure 1"></div>
+                <div class="gallery-item"><img src="image2.jpg" alt="Adventure 2"></div>
+                <div class="gallery-item"><img src="image3.jpg" alt="Adventure 3"></div>
+                <div class="gallery-item"><img src="image4.jpg" alt="Adventure 4"></div>
+            </div>
+        </section>
     </main>
     <footer>
-        <p>&copy; 2024 Dynamic Portal</p>
+        <p>&copy; 2024 Advenx. All Rights Reserved.</p>
     </footer>
     <script src="index.js"></script>
 </body>

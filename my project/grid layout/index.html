@@ -3,17 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grid Layout</title>
+    <title>Travel Explorer</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class="container">
-        <header class="header">Header</header>
-        <nav class="nav">Navigation</nav>
-        <main class="main">Main Content</main>
-        <aside class="aside">Aside</aside>
-        <footer class="footer">Footer</footer>
-    </div>
+    <header>
+        <h1>Travel Explorer</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Destinations</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <h2>Discover Your Next Adventure</h2>
+        </section>
+        <section id="destinations">
+            <h2>Popular Destinations</h2>
+            <div class="grid-container">
+                <div class="grid-item">Paris</div>
+                <div class="grid-item">New York</div>
+                <div class="grid-item">Tokyo</div>
+                <div class="grid-item">Sydney</div>
+                <div class="grid-item">Rome</div>
+                <div class="grid-item">London</div>
+            </div>
+        </section>
+        <section id="gallery">
+            <h2>Photo Gallery</h2>
+            <div class="grid-container">
+                <div class="grid-item"><img src="paris.jpg" alt="Paris"></div>
+                <div class="grid-item"><img src="newyork.jpg" alt="New York"></div>
+                <div class="grid-item"><img src="tokyo.jpg" alt="Tokyo"></div>
+                <div class="grid-item"><img src="sydney.jpg" alt="Sydney"></div>
+                <div class="grid-item"><img src="rome.jpg" alt="Rome"></div>
+                <div class="grid-item"><img src="london.jpg" alt="London"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Travel Explorer</p>
+    </footer>
     <script src="index.js"></script>
 </body>
 </html>
