@@ -48,12 +48,12 @@ main {
 }
 
 #destinations .grid-container {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-}
+     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); */
+} 
 
 #gallery .grid-container {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-}
+} 
 
 .grid-item {
     background-color: #f4f4f4;
